@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD52B29020DE351400306CCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52B28F20DE351400306CCC /* Stack.swift */; };
 		FDD709AD20C6A68100CFC1FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709AC20C6A68100CFC1FE /* main.swift */; };
 		FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709B620C6A8C800CFC1FE /* LinkedList.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD52B28F20DE351400306CCC /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		FDD709A920C6A68100CFC1FE /* swift-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD709AC20C6A68100CFC1FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FDD709B620C6A8C800CFC1FE /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD52B28E20DE350900306CCC /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				FD52B28F20DE351400306CCC /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		FDD709A020C6A68100CFC1FE = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 		FDD709AB20C6A68100CFC1FE /* swift-algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FD52B28E20DE350900306CCC /* Stack */,
 				FDD709B320C6A6AE00CFC1FE /* Linked List */,
 				FDD709AC20C6A68100CFC1FE /* main.swift */,
 			);
@@ -131,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */,
+				FD52B29020DE351400306CCC /* Stack.swift in Sources */,
 				FDD709AD20C6A68100CFC1FE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
