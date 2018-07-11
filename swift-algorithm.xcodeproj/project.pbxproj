@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43455F20F4C7F900FB5EEB /* Tree.swift */; };
 		FD43456220F4C86C00FB5EEB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43456120F4C86C00FB5EEB /* BinaryTree.swift */; };
+		FD43456420F4C92F00FB5EEB /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43456320F4C92F00FB5EEB /* BinarySearchTree.swift */; };
 		FD52B29020DE351400306CCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52B28F20DE351400306CCC /* Stack.swift */; };
 		FDAC3E4020F1C61800524512 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC3E3F20F1C61800524512 /* Queue.swift */; };
 		FDD709AD20C6A68100CFC1FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709AC20C6A68100CFC1FE /* main.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		FD43455F20F4C7F900FB5EEB /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		FD43456120F4C86C00FB5EEB /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		FD43456320F4C92F00FB5EEB /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		FD52B28F20DE351400306CCC /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		FDAC3E3F20F1C61800524512 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		FDD709A920C6A68100CFC1FE /* swift-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,7 @@
 			children = (
 				FD43455F20F4C7F900FB5EEB /* Tree.swift */,
 				FD43456120F4C86C00FB5EEB /* BinaryTree.swift */,
+				FD43456320F4C92F00FB5EEB /* BinarySearchTree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */,
 				FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */,
 				FD43456220F4C86C00FB5EEB /* BinaryTree.swift in Sources */,
+				FD43456420F4C92F00FB5EEB /* BinarySearchTree.swift in Sources */,
 				FD52B29020DE351400306CCC /* Stack.swift in Sources */,
 				FDD709AD20C6A68100CFC1FE /* main.swift in Sources */,
 				FDAC3E4020F1C61800524512 /* Queue.swift in Sources */,
