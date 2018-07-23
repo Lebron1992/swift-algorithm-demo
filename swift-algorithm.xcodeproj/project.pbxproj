@@ -16,6 +16,7 @@
 		FD7AE00E21043008001F86C3 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE00D21043008001F86C3 /* TrieNode.swift */; };
 		FD7AE01021043130001F86C3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE00F21043130001F86C3 /* Trie.swift */; };
 		FD7AE01521047D31001F86C3 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE01421047D31001F86C3 /* BinarySearch.swift */; };
+		FD7AE0182104AB40001F86C3 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE0172104AB40001F86C3 /* Heap.swift */; };
 		FDAC3E4020F1C61800524512 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC3E3F20F1C61800524512 /* Queue.swift */; };
 		FDD709AD20C6A68100CFC1FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709AC20C6A68100CFC1FE /* main.swift */; };
 		FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709B620C6A8C800CFC1FE /* LinkedList.swift */; };
@@ -43,6 +44,7 @@
 		FD7AE00D21043008001F86C3 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		FD7AE00F21043130001F86C3 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		FD7AE01421047D31001F86C3 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		FD7AE0172104AB40001F86C3 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		FDAC3E3F20F1C61800524512 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		FDD709A920C6A68100CFC1FE /* swift-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD709AC20C6A68100CFC1FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 			path = "Binary Search";
 			sourceTree = "<group>";
 		};
+		FD7AE0162104A5EC001F86C3 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				FD7AE0172104AB40001F86C3 /* Heap.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 		FDAC3E3E20F1C5EF00524512 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +143,7 @@
 		FDD709AB20C6A68100CFC1FE /* swift-algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FD7AE0162104A5EC001F86C3 /* Heap */,
 				FD7AE01321045BEE001F86C3 /* Binary Search */,
 				FD43455E20F4C7DC00FB5EEB /* Tree */,
 				FDAC3E3E20F1C5EF00524512 /* Queue */,
@@ -209,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD7AE01021043130001F86C3 /* Trie.swift in Sources */,
+				FD7AE0182104AB40001F86C3 /* Heap.swift in Sources */,
 				FD43456B20F5BE1900FB5EEB /* AVLTree.swift in Sources */,
 				FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */,
 				FD43456920F5BDEC00FB5EEB /* AVLNode.swift in Sources */,
