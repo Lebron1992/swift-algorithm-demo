@@ -17,6 +17,7 @@
 		FD7AE01021043130001F86C3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE00F21043130001F86C3 /* Trie.swift */; };
 		FD7AE01521047D31001F86C3 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE01421047D31001F86C3 /* BinarySearch.swift */; };
 		FD7AE0182104AB40001F86C3 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE0172104AB40001F86C3 /* Heap.swift */; };
+		FD7AE01B21061ACD001F86C3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE01A21061ACD001F86C3 /* PriorityQueue.swift */; };
 		FDAC3E4020F1C61800524512 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC3E3F20F1C61800524512 /* Queue.swift */; };
 		FDD709AD20C6A68100CFC1FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709AC20C6A68100CFC1FE /* main.swift */; };
 		FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709B620C6A8C800CFC1FE /* LinkedList.swift */; };
@@ -45,6 +46,7 @@
 		FD7AE00F21043130001F86C3 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		FD7AE01421047D31001F86C3 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		FD7AE0172104AB40001F86C3 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		FD7AE01A21061ACD001F86C3 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		FDAC3E3F20F1C61800524512 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		FDD709A920C6A68100CFC1FE /* swift-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD709AC20C6A68100CFC1FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -116,6 +118,14 @@
 			path = Heap;
 			sourceTree = "<group>";
 		};
+		FD7AE01921061AB2001F86C3 /* Priority Queue */ = {
+			isa = PBXGroup;
+			children = (
+				FD7AE01A21061ACD001F86C3 /* PriorityQueue.swift */,
+			);
+			path = "Priority Queue";
+			sourceTree = "<group>";
+		};
 		FDAC3E3E20F1C5EF00524512 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 		FDD709AB20C6A68100CFC1FE /* swift-algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FD7AE01921061AB2001F86C3 /* Priority Queue */,
 				FD7AE0162104A5EC001F86C3 /* Heap */,
 				FD7AE01321045BEE001F86C3 /* Binary Search */,
 				FD43455E20F4C7DC00FB5EEB /* Tree */,
@@ -224,6 +235,7 @@
 				FD43456B20F5BE1900FB5EEB /* AVLTree.swift in Sources */,
 				FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */,
 				FD43456920F5BDEC00FB5EEB /* AVLNode.swift in Sources */,
+				FD7AE01B21061ACD001F86C3 /* PriorityQueue.swift in Sources */,
 				FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */,
 				FD43456220F4C86C00FB5EEB /* BinaryTree.swift in Sources */,
 				FD43456420F4C92F00FB5EEB /* BinarySearchTree.swift in Sources */,
