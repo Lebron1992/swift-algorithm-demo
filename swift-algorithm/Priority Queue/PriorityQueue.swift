@@ -31,3 +31,9 @@ struct PriorityQueue<Element: Equatable> {
         return heap.removePeek()
     }
 }
+
+extension PriorityQueue: CustomStringConvertible {
+    var description: String {
+        return heap.description
+    }
+}
