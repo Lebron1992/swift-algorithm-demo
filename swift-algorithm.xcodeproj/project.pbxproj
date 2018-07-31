@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD090F1A21101CDE0056E4A4 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD090F1921101CDE0056E4A4 /* MergeSort.swift */; };
 		FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43455F20F4C7F900FB5EEB /* Tree.swift */; };
 		FD43456220F4C86C00FB5EEB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43456120F4C86C00FB5EEB /* BinaryTree.swift */; };
 		FD43456420F4C92F00FB5EEB /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43456320F4C92F00FB5EEB /* BinarySearchTree.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD090F1921101CDE0056E4A4 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		FD43455F20F4C7F900FB5EEB /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		FD43456120F4C86C00FB5EEB /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		FD43456320F4C92F00FB5EEB /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				FD57780C210C1173009BBB38 /* BubbleSort.swift */,
 				FD57780E210C1BF3009BBB38 /* SelectionSort.swift */,
 				FD577810210C1E66009BBB38 /* InsertionSort.swift */,
+				FD090F1921101CDE0056E4A4 /* MergeSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				FD43456B20F5BE1900FB5EEB /* AVLTree.swift in Sources */,
 				FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */,
 				FD43456920F5BDEC00FB5EEB /* AVLNode.swift in Sources */,
+				FD090F1A21101CDE0056E4A4 /* MergeSort.swift in Sources */,
 				FD577811210C1E66009BBB38 /* InsertionSort.swift in Sources */,
 				FD7AE01B21061ACD001F86C3 /* PriorityQueue.swift in Sources */,
 				FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */,
