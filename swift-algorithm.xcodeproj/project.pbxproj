@@ -13,6 +13,9 @@
 		FD43456920F5BDEC00FB5EEB /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43456820F5BDEC00FB5EEB /* AVLNode.swift */; };
 		FD43456B20F5BE1900FB5EEB /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43456A20F5BE1900FB5EEB /* AVLTree.swift */; };
 		FD52B29020DE351400306CCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD52B28F20DE351400306CCC /* Stack.swift */; };
+		FD57780D210C1173009BBB38 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57780C210C1173009BBB38 /* BubbleSort.swift */; };
+		FD57780F210C1BF3009BBB38 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57780E210C1BF3009BBB38 /* SelectionSort.swift */; };
+		FD577811210C1E66009BBB38 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD577810210C1E66009BBB38 /* InsertionSort.swift */; };
 		FD7AE00E21043008001F86C3 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE00D21043008001F86C3 /* TrieNode.swift */; };
 		FD7AE01021043130001F86C3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE00F21043130001F86C3 /* Trie.swift */; };
 		FD7AE01521047D31001F86C3 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE01421047D31001F86C3 /* BinarySearch.swift */; };
@@ -42,6 +45,9 @@
 		FD43456820F5BDEC00FB5EEB /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
 		FD43456A20F5BE1900FB5EEB /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		FD52B28F20DE351400306CCC /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		FD57780C210C1173009BBB38 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		FD57780E210C1BF3009BBB38 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		FD577810210C1E66009BBB38 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		FD7AE00D21043008001F86C3 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		FD7AE00F21043130001F86C3 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		FD7AE01421047D31001F86C3 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
@@ -91,6 +97,16 @@
 				FD52B28F20DE351400306CCC /* Stack.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		FD57780B210C1159009BBB38 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				FD57780C210C1173009BBB38 /* BubbleSort.swift */,
+				FD57780E210C1BF3009BBB38 /* SelectionSort.swift */,
+				FD577810210C1E66009BBB38 /* InsertionSort.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 		FD7AE00C21042FFD001F86C3 /* Trie */ = {
@@ -153,6 +169,7 @@
 		FDD709AB20C6A68100CFC1FE /* swift-algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FD57780B210C1159009BBB38 /* Sort */,
 				FD7AE01921061AB2001F86C3 /* Priority Queue */,
 				FD7AE0162104A5EC001F86C3 /* Heap */,
 				FD7AE01321045BEE001F86C3 /* Binary Search */,
@@ -232,15 +249,18 @@
 			files = (
 				FD7AE01021043130001F86C3 /* Trie.swift in Sources */,
 				FD7AE0182104AB40001F86C3 /* Heap.swift in Sources */,
+				FD57780D210C1173009BBB38 /* BubbleSort.swift in Sources */,
 				FD43456B20F5BE1900FB5EEB /* AVLTree.swift in Sources */,
 				FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */,
 				FD43456920F5BDEC00FB5EEB /* AVLNode.swift in Sources */,
+				FD577811210C1E66009BBB38 /* InsertionSort.swift in Sources */,
 				FD7AE01B21061ACD001F86C3 /* PriorityQueue.swift in Sources */,
 				FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */,
 				FD43456220F4C86C00FB5EEB /* BinaryTree.swift in Sources */,
 				FD43456420F4C92F00FB5EEB /* BinarySearchTree.swift in Sources */,
 				FD52B29020DE351400306CCC /* Stack.swift in Sources */,
 				FD7AE01521047D31001F86C3 /* BinarySearch.swift in Sources */,
+				FD57780F210C1BF3009BBB38 /* SelectionSort.swift in Sources */,
 				FD7AE00E21043008001F86C3 /* TrieNode.swift in Sources */,
 				FDD709AD20C6A68100CFC1FE /* main.swift in Sources */,
 				FDAC3E4020F1C61800524512 /* Queue.swift in Sources */,
