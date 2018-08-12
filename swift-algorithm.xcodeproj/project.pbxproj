@@ -26,6 +26,7 @@
 		FDAC3E4020F1C61800524512 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC3E3F20F1C61800524512 /* Queue.swift */; };
 		FDD709AD20C6A68100CFC1FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709AC20C6A68100CFC1FE /* main.swift */; };
 		FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709B620C6A8C800CFC1FE /* LinkedList.swift */; };
+		FDF5AC06211F2287005ECE6F /* Quicksort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5AC05211F2287005ECE6F /* Quicksort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		FDD709A920C6A68100CFC1FE /* swift-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD709AC20C6A68100CFC1FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FDD709B620C6A8C800CFC1FE /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		FDF5AC05211F2287005ECE6F /* Quicksort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quicksort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				FD577810210C1E66009BBB38 /* InsertionSort.swift */,
 				FD090F1921101CDE0056E4A4 /* MergeSort.swift */,
 				FD090F1D211043590056E4A4 /* RadixSort.swift */,
+				FDF5AC05211F2287005ECE6F /* Quicksort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				FD7AE01021043130001F86C3 /* Trie.swift in Sources */,
 				FD7AE0182104AB40001F86C3 /* Heap.swift in Sources */,
 				FD57780D210C1173009BBB38 /* BubbleSort.swift in Sources */,
+				FDF5AC06211F2287005ECE6F /* Quicksort.swift in Sources */,
 				FD43456B20F5BE1900FB5EEB /* AVLTree.swift in Sources */,
 				FD43456020F4C7F900FB5EEB /* Tree.swift in Sources */,
 				FD43456920F5BDEC00FB5EEB /* AVLNode.swift in Sources */,
