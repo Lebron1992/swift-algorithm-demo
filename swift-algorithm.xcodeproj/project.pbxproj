@@ -23,6 +23,11 @@
 		FD7AE01521047D31001F86C3 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE01421047D31001F86C3 /* BinarySearch.swift */; };
 		FD7AE0182104AB40001F86C3 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE0172104AB40001F86C3 /* Heap.swift */; };
 		FD7AE01B21061ACD001F86C3 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AE01A21061ACD001F86C3 /* PriorityQueue.swift */; };
+		FD7DD03E21413728002EC08D /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DD03D21413728002EC08D /* Graph.swift */; };
+		FD7DD04021416374002EC08D /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DD03F21416374002EC08D /* Vertex.swift */; };
+		FD7DD0422141638D002EC08D /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DD0412141638D002EC08D /* Edge.swift */; };
+		FD7DD04421417667002EC08D /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DD04321417667002EC08D /* AdjacencyList.swift */; };
+		FD7DD0BC214604DA002EC08D /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DD0BB214604DA002EC08D /* AdjacencyMatrix.swift */; };
 		FDAC3E4020F1C61800524512 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC3E3F20F1C61800524512 /* Queue.swift */; };
 		FDD709AD20C6A68100CFC1FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709AC20C6A68100CFC1FE /* main.swift */; };
 		FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709B620C6A8C800CFC1FE /* LinkedList.swift */; };
@@ -58,6 +63,11 @@
 		FD7AE01421047D31001F86C3 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		FD7AE0172104AB40001F86C3 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		FD7AE01A21061ACD001F86C3 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		FD7DD03D21413728002EC08D /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		FD7DD03F21416374002EC08D /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		FD7DD0412141638D002EC08D /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		FD7DD04321417667002EC08D /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		FD7DD0BB214604DA002EC08D /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		FDAC3E3F20F1C61800524512 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		FDD709A920C6A68100CFC1FE /* swift-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD709AC20C6A68100CFC1FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -151,6 +161,18 @@
 			path = "Priority Queue";
 			sourceTree = "<group>";
 		};
+		FD7DD03C21413717002EC08D /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				FD7DD03D21413728002EC08D /* Graph.swift */,
+				FD7DD03F21416374002EC08D /* Vertex.swift */,
+				FD7DD0412141638D002EC08D /* Edge.swift */,
+				FD7DD04321417667002EC08D /* AdjacencyList.swift */,
+				FD7DD0BB214604DA002EC08D /* AdjacencyMatrix.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		FDAC3E3E20F1C5EF00524512 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +200,7 @@
 		FDD709AB20C6A68100CFC1FE /* swift-algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FD7DD03C21413717002EC08D /* Graph */,
 				FD57780B210C1159009BBB38 /* Sort */,
 				FD7AE01921061AB2001F86C3 /* Priority Queue */,
 				FD7AE0162104A5EC001F86C3 /* Heap */,
@@ -257,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD7AE01021043130001F86C3 /* Trie.swift in Sources */,
+				FD7DD0BC214604DA002EC08D /* AdjacencyMatrix.swift in Sources */,
+				FD7DD0422141638D002EC08D /* Edge.swift in Sources */,
 				FD7AE0182104AB40001F86C3 /* Heap.swift in Sources */,
 				FD57780D210C1173009BBB38 /* BubbleSort.swift in Sources */,
 				FDF5AC06211F2287005ECE6F /* Quicksort.swift in Sources */,
@@ -265,11 +290,14 @@
 				FD43456920F5BDEC00FB5EEB /* AVLNode.swift in Sources */,
 				FD090F1A21101CDE0056E4A4 /* MergeSort.swift in Sources */,
 				FD577811210C1E66009BBB38 /* InsertionSort.swift in Sources */,
+				FD7DD03E21413728002EC08D /* Graph.swift in Sources */,
 				FD7AE01B21061ACD001F86C3 /* PriorityQueue.swift in Sources */,
+				FD7DD04421417667002EC08D /* AdjacencyList.swift in Sources */,
 				FD090F1E211043590056E4A4 /* RadixSort.swift in Sources */,
 				FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */,
 				FD43456220F4C86C00FB5EEB /* BinaryTree.swift in Sources */,
 				FD43456420F4C92F00FB5EEB /* BinarySearchTree.swift in Sources */,
+				FD7DD04021416374002EC08D /* Vertex.swift in Sources */,
 				FD52B29020DE351400306CCC /* Stack.swift in Sources */,
 				FD7AE01521047D31001F86C3 /* BinarySearch.swift in Sources */,
 				FD57780F210C1BF3009BBB38 /* SelectionSort.swift in Sources */,
