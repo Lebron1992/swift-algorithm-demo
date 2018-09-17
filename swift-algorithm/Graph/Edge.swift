@@ -13,3 +13,11 @@ struct Edge<T> {
     let destination: Vertex<T>
     let weight: Double?
 }
+
+extension Edge: Equatable {
+    static public func ==(lhs: Edge<T>, rhs: Edge<T>) -> Bool {
+        return lhs.source == rhs.source &&
+            lhs.destination == rhs.destination &&
+            lhs.weight == rhs.weight
+    }
+}

@@ -30,6 +30,7 @@
 		FD7DD0BC214604DA002EC08D /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DD0BB214604DA002EC08D /* AdjacencyMatrix.swift */; };
 		FDAC3E4020F1C61800524512 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC3E3F20F1C61800524512 /* Queue.swift */; };
 		FDC28FBE214E507000C518A1 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC28FBD214E507000C518A1 /* Dijkstra.swift */; };
+		FDC28FC1214F815D00C518A1 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC28FC0214F815D00C518A1 /* Prim.swift */; };
 		FDD709AD20C6A68100CFC1FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709AC20C6A68100CFC1FE /* main.swift */; };
 		FDD709B720C6A8C800CFC1FE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD709B620C6A8C800CFC1FE /* LinkedList.swift */; };
 		FDF5AC06211F2287005ECE6F /* Quicksort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5AC05211F2287005ECE6F /* Quicksort.swift */; };
@@ -71,6 +72,7 @@
 		FD7DD0BB214604DA002EC08D /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		FDAC3E3F20F1C61800524512 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		FDC28FBD214E507000C518A1 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		FDC28FC0214F815D00C518A1 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
 		FDD709A920C6A68100CFC1FE /* swift-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD709AC20C6A68100CFC1FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FDD709B620C6A8C800CFC1FE /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -191,6 +193,14 @@
 			path = Dijkstra;
 			sourceTree = "<group>";
 		};
+		FDC28FBF214F815700C518A1 /* Prim */ = {
+			isa = PBXGroup;
+			children = (
+				FDC28FC0214F815D00C518A1 /* Prim.swift */,
+			);
+			path = Prim;
+			sourceTree = "<group>";
+		};
 		FDD709A020C6A68100CFC1FE = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +220,7 @@
 		FDD709AB20C6A68100CFC1FE /* swift-algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FDC28FBF214F815700C518A1 /* Prim */,
 				FDC28FBC214E4F8600C518A1 /* Dijkstra */,
 				FD7DD03C21413717002EC08D /* Graph */,
 				FD57780B210C1159009BBB38 /* Sort */,
@@ -302,6 +313,7 @@
 				FD090F1A21101CDE0056E4A4 /* MergeSort.swift in Sources */,
 				FD577811210C1E66009BBB38 /* InsertionSort.swift in Sources */,
 				FD7DD03E21413728002EC08D /* Graph.swift in Sources */,
+				FDC28FC1214F815D00C518A1 /* Prim.swift in Sources */,
 				FD7AE01B21061ACD001F86C3 /* PriorityQueue.swift in Sources */,
 				FDC28FBE214E507000C518A1 /* Dijkstra.swift in Sources */,
 				FD7DD04421417667002EC08D /* AdjacencyList.swift in Sources */,

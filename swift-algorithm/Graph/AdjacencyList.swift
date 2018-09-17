@@ -9,11 +9,18 @@
 import Foundation
 
 final class AdjacencyList<T> {
+    
     private var adjacencies: [Vertex<T>: [Edge<T>]] = [:]
+    
     init() { }
+    
+    var vertices: [Vertex<T>] {
+        return Array(adjacencies.keys)
+    }
 }
 
 extension AdjacencyList: Graph {
+    @discardableResult
     func createVertex(value: T) -> Vertex<T> {
         let vertex = Vertex(index: adjacencies.count, value: value)
         adjacencies[vertex] = []
